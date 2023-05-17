@@ -86,4 +86,5 @@ jobs:
           git config --global user.name "Mislav Jelusic"
           git add .
           git commit -m "Update version to $(cat jobfair-python-service/Chart.yaml | grep version | cut -d ' ' -f 2)"
-          git push origin main
+          git push origin master
+          
